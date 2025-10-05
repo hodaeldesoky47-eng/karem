@@ -35,5 +35,37 @@ This repository contains the seed files to drive automatic code generation in Cu
 - المشروع النهائي الناتج سيتضمن واجهة Next.js، وواجهة خلفية FastAPI، ونماذج AI/ML تمهيدية، وبيانات تجريبية، واختبارات، وDocker، وCI/CD.
 - هذا المستودع بذاته صغير، الهدف منه تشغيل توليد المشروع الكامل عبر النص في `PROMPT.md`.
 
+## Run Locally without Docker (English)
+
+Prerequisites:
+- Python 3.11+
+- Node.js 20+
+- npm
+
+Steps:
+1. Install dependencies (backend + frontend): `npm run setup`
+2. Start both servers (dev): `npm run dev`
+   - Backend: http://localhost:8000
+   - Frontend: http://localhost:3000
+3. Alternatively, run separately:
+   - Backend only: `npm run start:backend:dev`
+   - Frontend only: `npm run dev:frontend`
+
+## التشغيل محلياً بدون Docker (عربي)
+
+المتطلبات:
+- Python 3.11+
+- Node.js 20+
+- npm
+
+الخطوات:
+1. تثبيت الاعتمادات (الخلفية + الواجهة): `npm run setup`
+2. تشغيل الخوادم معاً (وضع التطوير): `npm run dev`
+   - الخلفية: http://localhost:8000
+   - الواجهة: http://localhost:3000
+3. أو تشغيل كل منهما على حدة:
+   - الخلفية فقط: `npm run start:backend:dev`
+   - الواجهة فقط: `npm run dev:frontend`
+
 
 
